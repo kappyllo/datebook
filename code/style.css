@@ -71,8 +71,27 @@ body {
 
 .login--section--background {
   display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   background-color: white;
   border-radius: 1rem;
   width: 70%;
   height: 70%;
+}
+
+.login--section--background img {
+  margin-top: 4rem;
+  height: 50%;
+}
+
+.login--section--button {
+  background-color: transparent;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--primare--color);
+}
+
+.login--section--button:hover {
+  cursor: pointer;
 }
