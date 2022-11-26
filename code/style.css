@@ -7,6 +7,7 @@
 html {
   width: 100vw;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -55,4 +56,9 @@ body {
 
 .date--span {
   color: var(--primare--color);
+}
+
+.login--section {
+  display: flex;
+  height: 100%;
 }
