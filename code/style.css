@@ -66,7 +66,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: var(--primare--color);
+  background: rgb(78, 73, 158);
+  background: linear-gradient(
+    41deg,
+    rgba(78, 73, 158, 1) 0%,
+    rgba(181, 34, 181, 1) 33%,
+    rgba(249, 161, 202, 1) 76%
+  );
 }
 
 .login--section--background {
